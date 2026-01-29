@@ -83,7 +83,8 @@ class _NavBar extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 12, right: 24),
                         child: TextButton(
                           onPressed: () async {
-                            const url = 'http://localhost:8090'; // Docs URL
+                            const url =
+                                'https://doer-website-e5ei.vercel.app'; // Docs URL
                             if (await canLaunchUrl(Uri.parse(url))) {
                               await launchUrl(
                                 Uri.parse(url),

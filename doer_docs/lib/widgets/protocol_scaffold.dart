@@ -125,7 +125,7 @@ class _NavBar extends StatelessWidget {
                           ),
                           child: TextButton(
                             onPressed: () {
-                              const url = 'http://localhost:8091';
+                              const url = 'https://doer-website.vercel.app';
                               launchUrl(
                                 Uri.parse(url),
                                 mode: LaunchMode.externalApplication,
