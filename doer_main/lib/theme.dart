@@ -34,7 +34,7 @@ class DoerTheme {
       ),
       textTheme: TextTheme(
         displayLarge: GoogleFonts.outfit(
-          fontSize: 64,
+          fontSize: 80, // Oversized for 2026
           fontWeight: FontWeight.bold,
           color: primaryText,
           height: 1.1,

@@ -99,7 +99,7 @@ class DoerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'DOER Wallet', // Updated Title
+      title: 'DOER DAPP', // Updated Title
       theme: DoerTheme.themeData, // New Dark Theme
       routerConfig: _router,
       debugShowCheckedModeBanner: false,

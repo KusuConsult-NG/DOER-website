@@ -38,11 +38,11 @@ class _NavBar extends StatelessWidget {
       child: BackdropFilter(
         filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
         child: Container(
-          height: 90, // Taller navbar
+          height: 90,
           decoration: BoxDecoration(
             color: Theme.of(context).scaffoldBackgroundColor.withValues(
               alpha: 0.6,
-            ), // More transparent for glass
+            ),
             border: Border(
               bottom: BorderSide(color: Colors.white.withValues(alpha: 0.05)),
             ),
@@ -54,13 +54,13 @@ class _NavBar extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  // Logo
+                  // Logo (Returned to standard size)
                   InkWell(
                     onTap: () => context.go('/'),
                     child: Image.asset(
-                      'assets/logo.jpg',
-                      height: 90, // Huge logo as requested
-                      width: 90,
+                      'assets/logo.png',
+                      height: 50, // Standard sleek size
+                      width: 50,
                       fit: BoxFit.contain,
                     ),
                   ),
@@ -74,17 +74,26 @@ class _NavBar extends StatelessWidget {
                         path: '/how-it-works',
                       ),
                       const _NavLink(label: 'Intents', path: '/intents'),
-                      const _NavLink(label: 'Mandates', path: '/mandates'),
-                      const _NavLink(label: 'Security', path: '/security'),
+                      const _NavLink(
+                        label: 'Mandates',
+                        path: '/mandates',
+                      ),
+                      const _NavLink(
+                        label: 'Security',
+                        path: '/security',
+                      ),
                       const _NavLink(label: 'About', path: '/about'),
 
-                      // Docs Link (External style)
+                      // Docs Link
                       Padding(
-                        padding: const EdgeInsets.only(left: 12, right: 24),
+                        padding: const EdgeInsets.only(
+                          left: 12,
+                          right: 24,
+                        ),
                         child: TextButton(
                           onPressed: () async {
                             const url =
-                                'https://doer-website-e5ei.vercel.app'; // Docs URL
+                                'https://doer-website-e5ei.vercel.app';
                             if (await canLaunchUrl(Uri.parse(url))) {
                               await launchUrl(
                                 Uri.parse(url),
@@ -111,49 +120,7 @@ class _NavBar extends StatelessWidget {
                         ),
                       ),
 
-                      // "Download App" CTA
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(30),
-                          gradient: const LinearGradient(
-                            colors: [
-                              Color(0xFF2563EB),
-                              Color(0xFF10B981),
-                            ], // Blue -> Green gradient
-                          ),
-                          boxShadow: [
-                            BoxShadow(
-                              color: const Color(
-                                0xFF10B981,
-                              ).withValues(alpha: 0.3),
-                              blurRadius: 12,
-                              offset: const Offset(0, 4),
-                            ),
-                          ],
-                        ),
-                        child: ElevatedButton(
-                          onPressed: () {
-                            const url = 'https://apps.apple.com';
-                            launchUrl(
-                              Uri.parse(url),
-                              mode: LaunchMode.externalApplication,
-                            );
-                          },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.transparent,
-                            shadowColor: Colors.transparent,
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 24,
-                              vertical: 16,
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(30),
-                            ),
-                          ),
-                          child: const Text('Download App'),
-                        ),
-                      ),
-                    ],
+
                   ),
                 ],
               ),
@@ -213,7 +180,7 @@ class _Footer extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'DOER',
+                        'DOER DAPP',
                         style: GoogleFonts.outfit(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
