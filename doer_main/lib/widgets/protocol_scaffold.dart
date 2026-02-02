@@ -40,9 +40,9 @@ class _NavBar extends StatelessWidget {
         child: Container(
           height: 90,
           decoration: BoxDecoration(
-            color: Theme.of(context).scaffoldBackgroundColor.withValues(
-              alpha: 0.6,
-            ),
+            color: Theme.of(
+              context,
+            ).scaffoldBackgroundColor.withValues(alpha: 0.6),
             border: Border(
               bottom: BorderSide(color: Colors.white.withValues(alpha: 0.05)),
             ),
@@ -74,26 +74,16 @@ class _NavBar extends StatelessWidget {
                         path: '/how-it-works',
                       ),
                       const _NavLink(label: 'Intents', path: '/intents'),
-                      const _NavLink(
-                        label: 'Mandates',
-                        path: '/mandates',
-                      ),
-                      const _NavLink(
-                        label: 'Security',
-                        path: '/security',
-                      ),
+                      const _NavLink(label: 'Mandates', path: '/mandates'),
+                      const _NavLink(label: 'Security', path: '/security'),
                       const _NavLink(label: 'About', path: '/about'),
 
                       // Docs Link
                       Padding(
-                        padding: const EdgeInsets.only(
-                          left: 12,
-                          right: 24,
-                        ),
+                        padding: const EdgeInsets.only(left: 12, right: 24),
                         child: TextButton(
                           onPressed: () async {
-                            const url =
-                                'https://doer-website-e5ei.vercel.app';
+                            const url = 'https://doer-website-e5ei.vercel.app';
                             if (await canLaunchUrl(Uri.parse(url))) {
                               await launchUrl(
                                 Uri.parse(url),
@@ -119,8 +109,7 @@ class _NavBar extends StatelessWidget {
                           ),
                         ),
                       ),
-
-
+                    ],
                   ),
                 ],
               ),
@@ -235,7 +224,7 @@ class _Footer extends StatelessWidget {
               ),
               const SizedBox(height: 40),
               Text(
-                '© 2026 DOER. All rights reversed.',
+                '© 2026 DOER DAPP. All rights reversed.',
                 style: TextStyle(
                   color: Colors.white.withValues(alpha: 0.3),
                   fontSize: 12,

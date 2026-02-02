@@ -1,0 +1,108 @@
+.footer {
+  background-color: #000;
+  padding: 60px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.brandColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.brandName {
+  font-family: var(--font-outfit);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.brandTagline {
+  font-family: var(--font-inter);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+}
+
+.badges {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.storeLink {
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.storeLink:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.linksColumn {
+  display: flex;
+  gap: 24px;
+}
+
+.footerLink {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9375rem;
+  transition: color 0.2s;
+}
+
+.footerLink:hover {
+  color: #fff;
+}
+
+.icon {
+  opacity: 0.5;
+}
+
+.footerLink:hover .icon {
+  opacity: 1;
+}
+
+.bottomSection {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 24px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .topSection {
+    flex-direction: column;
+  }
+  
+  .linksColumn {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

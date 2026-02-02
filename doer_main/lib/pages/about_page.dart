@@ -15,7 +15,7 @@ class AboutPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SectionHeader(
-                title: 'What Is DOER',
+                title: 'What Is DOER DAPP',
                 subtitle: 'Vision, Mission, and Principles.',
               ),
               const SizedBox(height: 60),
@@ -26,15 +26,15 @@ class AboutPage extends StatelessWidget {
                 'Today, interacting with crypto often means choosing between two extremes: Manual, repetitive approval of every single action, or Handing over broad, indefinite permissions to automated systems.',
               ),
               _Paragraph(
-                'Neither is ideal. Manual approval is secure but tedious. Broad automation is convenient but risky. DOER bridges this gap.',
+                'Neither is ideal. Manual approval is secure but tedious. Broad automation is convenient but risky. DOER DAPP bridges this gap.',
               ),
 
               const SizedBox(height: 60),
 
-              const SectionHeader(title: 'What DOER Is'),
+              const SectionHeader(title: 'What DOER DAPP Is'),
               const SizedBox(height: 20),
               _Paragraph(
-                'DOER is a system for granular, conditional execution.',
+                'DOER DAPP is a system for granular, conditional execution.',
               ),
               _Paragraph(
                 'It allows users to grant specific, limited authority to automated agents (Doers) to perform actions on their behalf, without giving up custody or control of their assets.',
@@ -45,19 +45,19 @@ class AboutPage extends StatelessWidget {
 
               const SizedBox(height: 60),
 
-              const SectionHeader(title: 'What DOER Is Not'),
+              const SectionHeader(title: 'What DOER DAPP Is Not'),
               const SizedBox(height: 20),
               _BulletPoint(
-                title: 'DOER is not a custodial wallet.',
+                title: 'DOER DAPP is not a custodial wallet.',
                 text: 'We do not hold your keys or your funds.',
               ),
               _BulletPoint(
-                title: 'DOER is not a "trading bot".',
+                title: 'DOER DAPP is not a "trading bot".',
                 text:
                     'It is the infrastructure that allows *you* to define trading rules safely.',
               ),
               _BulletPoint(
-                title: 'DOER is not an AI.',
+                title: 'DOER DAPP is not an AI.',
                 text:
                     'It is a deterministic protocol for enforcing permissions.',
               ),

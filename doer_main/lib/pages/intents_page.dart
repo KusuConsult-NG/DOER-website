@@ -23,7 +23,7 @@ class IntentsPage extends StatelessWidget {
               const SectionHeader(title: 'What Is an Intent?'),
               const SizedBox(height: 20),
               Text(
-                'An intent is how you tell DOER what you want to happen. It is not a transaction. It does not move funds by itself.',
+                'An intent is how you tell DOER DAPP what you want to happen. It is not a transaction. It does not move funds by itself.',
                 style: Theme.of(
                   context,
                 ).textTheme.bodyLarge?.copyWith(fontSize: 18),
@@ -33,7 +33,7 @@ class IntentsPage extends StatelessWidget {
               const SectionHeader(title: 'Why Intents Matter'),
               const SizedBox(height: 20),
               Text(
-                'Most wallets ask you to approve actions one by one. Intents let you set expectations once, avoid repeated approvals, and keep control without micromanaging. You decide the goal. DOER handles execution within your limits.',
+                'Most wallets ask you to approve actions one by one. Intents let you set expectations once, avoid repeated approvals, and keep control without micromanaging. You decide the goal. DOER DAPP handles execution within your limits.',
                 style: Theme.of(
                   context,
                 ).textTheme.bodyLarge?.copyWith(fontSize: 18),

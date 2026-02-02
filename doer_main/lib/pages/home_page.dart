@@ -197,7 +197,8 @@ class HomePage extends StatelessWidget {
                     width: 550,
                     child: InfoCard(
                       title: 'Your Assets Stay Yours',
-                      description: 'DOER never takes custody of your funds.',
+                      description:
+                          'DOER DAPP never takes custody of your funds.',
                       icon: Icons.account_balance_wallet_outlined,
                     ),
                   ),

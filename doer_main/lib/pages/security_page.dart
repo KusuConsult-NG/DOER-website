@@ -21,7 +21,7 @@ class SecurityPage extends StatelessWidget {
               const SizedBox(height: 60),
 
               Text(
-                'DOER does not hold your funds. Your wallet remains the owner at all times.',
+                'DOER DAPP does not hold your funds. Your wallet remains the owner at all times.',
                 style: Theme.of(
                   context,
                 ).textTheme.bodyLarge?.copyWith(fontSize: 18),
@@ -36,7 +36,7 @@ class SecurityPage extends StatelessWidget {
                   SizedBox(
                     width: 450,
                     child: InfoCard(
-                      title: 'What DOER Prevents',
+                      title: 'What DOER DAPP Prevents',
                       description:
                           '• Unlimited permissions\n• Silent automation\n• Actions beyond what you allowed\n• Forgotten approvals that stay active forever',
                       icon: Icons.shield_outlined,
@@ -45,7 +45,7 @@ class SecurityPage extends StatelessWidget {
                   SizedBox(
                     width: 450,
                     child: InfoCard(
-                      title: 'What DOER Cannot Fix',
+                      title: 'What DOER DAPP Cannot Fix',
                       description:
                           '• Allowing unsafe apps yourself\n• Setting limits you do not understand\n\nControl comes with responsibility.',
                       icon: Icons.warning_amber_outlined,
@@ -59,7 +59,7 @@ class SecurityPage extends StatelessWidget {
               const SectionHeader(title: 'Why Transparency Matters'),
               const SizedBox(height: 20),
               Text(
-                'DOER does not hide complexity behind vague approvals. If something can act for you, you should know exactly how.',
+                'DOER DAPP does not hide complexity behind vague approvals. If something can act for you, you should know exactly how.',
                 style: Theme.of(
                   context,
                 ).textTheme.bodyLarge?.copyWith(fontSize: 18),

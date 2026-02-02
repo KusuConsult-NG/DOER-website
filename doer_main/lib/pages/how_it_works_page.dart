@@ -16,7 +16,8 @@ class HowItWorksPage extends StatelessWidget {
             children: [
               const SectionHeader(
                 title: 'How It Works',
-                subtitle: 'This is how DOER works from a user’s point of view.',
+                subtitle:
+                    'This is how DOER DAPP works from a user’s point of view.',
               ),
               const SizedBox(height: 60),
 
@@ -34,7 +35,7 @@ class HowItWorksPage extends StatelessWidget {
               ),
               _Step(
                 number: '03',
-                title: 'DOER Prepares Execution',
+                title: 'DOER DAPP Prepares Execution',
                 description:
                     'When conditions are met, an execution is prepared that follows your rules. Nothing happens silently. Nothing can exceed what you allowed.',
               ),
