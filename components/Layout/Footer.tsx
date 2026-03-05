@@ -15,9 +15,9 @@ export default function Footer() {
                         <div className={styles.badges}>
                             {/* Placeholder App Store Badges - Styling only for now or external links */}
                             <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className={styles.storeLink}>
-                                App Store
+                                Solana DApp store
                             </a>
-                            <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className={styles.storeLink}>
+                            <a href="https://play.google.com/store/apps/details?id=com.kusuconsult.doer" target="_blank" rel="noopener noreferrer" className={styles.storeLink}>
                                 Google Play
                             </a>
                         </div>
