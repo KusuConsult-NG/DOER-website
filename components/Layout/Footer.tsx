@@ -27,7 +27,7 @@ export default function Footer() {
                     <div className={styles.linksColumn}>
                         <FooterLink label="X" href="https://x.com/DoerDApp" />
                         <FooterLink label="GitHub" href="https://github.com/DoerDApp" />
-                        <FooterLink label="Contact Us" href="mailto:info@doerdapp.com" />
+                        <FooterLink label="Contact Us" href="/contact" />
                     </div>
                 </div>
 
