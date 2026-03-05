@@ -24,12 +24,12 @@ export default function Home() {
 
           <div className={styles.heroBadges}>
             <AppStoreBadge
-              storeName="App Store"
+              storeName="Solana DApp store"
               href="https://apps.apple.com"
             />
             <AppStoreBadge
               storeName="Google Play"
-              href="https://play.google.com"
+              href="https://play.google.com/store/apps/details?id=com.kusuconsult.doer"
             />
           </div>
         </div>
