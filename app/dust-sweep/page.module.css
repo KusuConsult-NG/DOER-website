@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 80px 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text {
+  font-family: var(--font-inter);
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--secondary-text);
+}
+
+.bold {
+  font-weight: 700;
+  color: var(--doer-blue);
+}
+
+.bulletPoint {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.bulletIcon {
+  margin-top: 10px;
+  flex-shrink: 0;
+  fill: var(--doer-blue);
+  color: var(--doer-blue);
+}

@@ -11,6 +11,7 @@ const navLinks = [
     { label: "Intents", path: "/intents" },
     { label: "Mandates", path: "/mandates" },
     { label: "Security", path: "/security" },
+    { label: "Dust Sweep", path: "/dust-sweep" },
     { label: "About", path: "/about" },
 ];
 

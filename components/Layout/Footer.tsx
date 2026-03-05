@@ -25,9 +25,9 @@ export default function Footer() {
 
                     {/* Links */}
                     <div className={styles.linksColumn}>
-                        <FooterLink label="Twitter" href="https://twitter.com/doer" />
-                        <FooterLink label="GitHub" href="https://github.com/doer" />
-                        <FooterLink label="Discord" href="https://discord.gg/doer" />
+                        <FooterLink label="X" href="https://x.com/DoerDApp" />
+                        <FooterLink label="GitHub" href="https://github.com/DoerDApp" />
+                        <FooterLink label="Contact Us" href="mailto:info@doerdapp.com" />
                     </div>
                 </div>
 
