@@ -8,8 +8,7 @@ import styles from "./DocsNavbar.module.css";
 
 const navLinks = [
     { label: "Home", path: "/developers" },
-    { label: "Getting Started", path: "/developers/getting-started" },
-    { label: "Architecture", path: "/developers/architecture" },
+    { label: "Getting Started", path: "/developers/getting-started" }
 ];
 
 export default function DocsNavbar() {

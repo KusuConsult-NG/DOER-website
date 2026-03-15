@@ -7,12 +7,10 @@ import { useState } from "react";
 import styles from "./Navbar.module.css";
 
 const navLinks = [
-    { label: "How It Works", path: "/how-it-works" },
-    { label: "Intents", path: "/intents" },
-    { label: "Mandates", path: "/mandates" },
-    { label: "Security", path: "/security" },
-    { label: "Dust Sweep", path: "/dust-sweep" },
-    { label: "About", path: "/about" },
+    { label: "Why DOER Exists", path: "/why-doer-exists" },
+    { label: "Protocol Overview", path: "/protocol-overview" },
+    { label: "What Makes DOER New", path: "/what-makes-doer-new" },
+    { label: "Architecture", path: "/architecture" },
 ];
 
 export default function Navbar() {

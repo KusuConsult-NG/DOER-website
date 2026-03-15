@@ -15,36 +15,41 @@ export default function IntentsPage() {
                 <div className={styles.section}>
                     <SectionHeader title="What Is an Intent?" />
                     <p className={styles.text}>
-                        An intent is how you tell DOER DAPP what you want to happen. It is not a transaction. It does not move funds by itself.
+                        An intent is how you tell DOER what you want to happen. It is not a transaction. It defines a goal and the boundaries for achieving it.
                     </p>
                 </div>
 
                 <div className={styles.section}>
                     <SectionHeader title="Why Intents Matter" />
                     <p className={styles.text}>
-                        Most wallets ask you to approve actions one by one. Intents let you set expectations once, avoid repeated approvals, and keep control without micromanaging. You decide the goal. DOER DAPP handles execution within your limits.
+                        Most wallets require constant manual approvals. Intents allow users to define expectations once while keeping strict limits in place. You define the goal. DOER handles execution safely.
                     </p>
                 </div>
 
                 <div className={styles.section}>
                     <SectionHeader title="Limits Are the Point" />
                     <p className={styles.text}>
-                        Every intent includes limits. If a limit is reached, execution stops.
+                        Every intent contains strict boundaries. Execution stops automatically if limits are reached. Examples include:
                     </p>
                     <div className={styles.grid3}>
                         <InfoCard
-                            title="Amounts"
-                            description="Maximum amounts that can be used."
+                            title="Maximum Spending"
+                            description="Limits on how much value can be executed."
                             icon={<Coins size={32} />}
                         />
                         <InfoCard
-                            title="Apps"
-                            description="Which apps or contracts are allowed."
+                            title="Allowed Contracts"
+                            description="Which apps or contracts are permitted."
                             icon={<AppWindow size={32} />}
                         />
                         <InfoCard
-                            title="Time"
-                            description="Specific time windows for execution."
+                            title="Execution Frequency"
+                            description="How often actions can occur."
+                            icon={<Clock size={32} />}
+                        />
+                        <InfoCard
+                            title="Time Windows"
+                            description="Specific timeframes for execution."
                             icon={<Clock size={32} />}
                         />
                     </div>

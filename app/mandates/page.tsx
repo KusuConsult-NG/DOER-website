@@ -22,7 +22,7 @@ export default function MandatesPage() {
                 <div className={styles.section}>
                     <SectionHeader title="What Mandates Control" />
                     <p className={styles.text}>
-                        A mandate defines who can trigger actions, how often actions can occur, and when permission ends. Mandates do not transfer ownership. They only allow limited action.
+                        A mandate defines who can trigger actions, how often actions can occur, and when permission ends. Mandates never transfer ownership of assets. They only grant temporary authority.
                     </p>
                 </div>
 
@@ -30,7 +30,7 @@ export default function MandatesPage() {
                     <div className={styles.grid2}>
                         <InfoCard
                             title="You Can Stop It Anytime"
-                            description="You can revoke a mandate instantly. No waiting. No negotiations. No locked permissions."
+                            description="Permissions can be revoked instantly. There is no waiting period and no permanent automation. Users remain fully in control."
                             icon={<Ban size={32} />}
                         />
                     </div>

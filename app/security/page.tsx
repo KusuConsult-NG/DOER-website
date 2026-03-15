@@ -13,30 +13,35 @@ export default function SecurityPage() {
                 />
 
                 <div className={styles.section}>
+                    <SectionHeader title="Security By Design" />
                     <p className={styles.text}>
-                        DOER DAPP does not hold your funds. Your wallet remains the owner at all times.
+                        DOER is built on the principle that automation should never require surrendering custody. Your wallet remains the owner of your funds at all times.
                     </p>
                 </div>
 
                 <div className={styles.section}>
                     <div className={styles.grid2}>
                         <InfoCard
-                            title="What DOER DAPP Prevents"
-                            description={`• Unlimited permissions\n• Silent automation\n• Actions beyond what you allowed\n• Forgotten approvals that stay active forever`}
+                            title="What DOER Prevents"
+                            description={`• Unlimited permissions\n• Silent automation\n• Actions beyond user limits\n• Forgotten approvals that remain active forever`}
                             icon={<ShieldAlert size={32} />}
                         />
                         <InfoCard
-                            title="What DOER DAPP Cannot Fix"
-                            description={`• Allowing unsafe apps yourself\n• Setting limits you do not understand\n\nControl comes with responsibility.`}
+                            title="What DOER Cannot Fix"
+                            description={`• Allowing unsafe applications yourself\n• Setting limits you do not understand\n\nAutomation increases power, but control always remains with the user.`}
                             icon={<TriangleAlert size={32} />}
                         />
                     </div>
                 </div>
 
                 <div className={styles.section}>
-                    <SectionHeader title="Why Transparency Matters" />
+                    <SectionHeader title="Transaction Transparency" />
                     <p className={styles.text}>
-                        DOER DAPP does not hide complexity behind vague approvals. If something can act for you, you should know exactly how.
+                        Every automated action must match a policy you defined. Users always know:
+                        <br /><br />
+                        • what is allowed<br />
+                        • who can trigger it<br />
+                        • when it expires
                     </p>
                 </div>
             </div>

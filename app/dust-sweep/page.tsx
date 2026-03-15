@@ -12,28 +12,28 @@ export default function DustSweepPage() {
                 />
 
                 <div className={styles.section}>
-                    <SectionHeader title="What is Dust Sweep?" />
+                    <SectionHeader title="Consolidate Small Balances" />
                     <p className={styles.text}>
-                        Over time, as you interact with various DApps and tokens, you may accumulate small, leftover balances known as &quot;dust.&quot; These amounts are often too small to be transferred or traded individually due to gas costs.
+                        Over time, wallets accumulate small leftover balances called dust.
                     </p>
                     <p className={styles.text}>
-                        The DOER DAPP Dust Sweep feature allows you to seamlessly consolidate these small balances into a single, usable asset. This helps keep your wallet organized and maximizes the value of your portfolio.
+                        DOER allows users to consolidate these small assets into a single usable token.
                     </p>
                 </div>
 
                 <div className={styles.section}>
                     <SectionHeader title="How It Works" />
                     <BulletPoint
-                        title="Identify Dust:"
-                        text="The protocol automatically scans your wallet for balances below a customizable threshold."
+                        title="Identify Dust"
+                        text="The protocol scans the wallet for small balances."
                     />
                     <BulletPoint
-                        title="Approve Conversion:"
-                        text='You define an intent to allow the "sweeping" of these assets.'
+                        title="Approve Conversion"
+                        text="Users define an intent allowing dust consolidation."
                     />
                     <BulletPoint
-                        title="Consolidate:"
-                        text="The Doer agents execute the trades optimally to convert your dust into your preferred core asset (e.g., ETH or USDC)."
+                        title="Consolidate"
+                        text="Doer agents convert small assets into a preferred token such as USDC."
                     />
                 </div>
 

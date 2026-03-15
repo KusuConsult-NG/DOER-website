@@ -13,28 +13,28 @@ export default function HowItWorksPage() {
                 <div className={styles.section}>
                     <Step
                         number="01"
-                        title="You Say What You Want"
-                        description="You describe an outcome you care about. That might be managing repeated actions, allowing limited execution under certain conditions, or reducing manual approvals. You are not approving a transaction yet. You are describing intent."
+                        title="You Define an Intent"
+                        description={`An intent describes what goal you want achieved.\n\nExample:\nBuy an asset\nSwap tokens\nClaim rewards`}
                     />
                     <Step
                         number="02"
                         title="You Set Boundaries"
-                        description="Next, you define limits. For example: which apps or contracts are allowed, maximum amounts that can be used, and how long this permission should last. These limits are not suggestions. They are enforced rules."
+                        description={`You define limits including:\n• approved contracts\n• maximum spending\n• execution frequency\n• expiration time\n\nThese limits are enforced rules.`}
                     />
                     <Step
                         number="03"
                         title="DOER DAPP Prepares Execution"
-                        description="When conditions are met, an execution is prepared that follows your rules. Nothing happens silently. Nothing can exceed what you allowed."
+                        description="Automation executors monitor intents and prepare transactions when conditions are met."
                     />
                     <Step
                         number="04"
                         title="Rules Are Checked"
-                        description="Before anything executes: Your limits are checked, expiry is checked, and permissions are verified. If something does not match, it simply does not run."
+                        description={`Before execution:\n• limits are verified\n• expiration is checked\n• permissions are validated\n\nIf something does not match, the transaction simply does not run.`}
                     />
                     <Step
                         number="05"
                         title="Action Happens On-Chain"
-                        description="Only after all rules pass does execution occur. Everything can be traced back to what you allowed, when you allowed it, and under what limits."
+                        description="Only after all rules pass does execution occur. Every action can be traced back to the policy you defined."
                     />
                 </div>
             </div>
