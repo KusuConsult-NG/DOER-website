@@ -34,7 +34,7 @@ export default function ArchitecturePage() {
                     <BulletPoint text="too coarse (granting long-lived permissions that cannot be safely constrained)." />
 
                     <p className={styles.text} style={{ marginTop: 10 }}>
-                        DOER introduces a third model: <span className={styles.heroHighlight}>policy-driven intent execution.</span><br />
+                        DOER DAPP introduces a third model: <span className={styles.heroHighlight}>policy-driven intent execution.</span><br />
                         Automation is allowed, but only within strict user-defined boundaries.
                     </p>
                     <p className={styles.text} style={{ marginTop: 10 }}>
@@ -53,7 +53,7 @@ export default function ArchitecturePage() {
                 <div className={styles.section}>
                     <SectionHeader title="2. Authority Model" />
                     <p className={styles.text}>
-                        DOER separates authority into multiple layers to prevent privilege escalation and authority collapse.
+                        DOER DAPP separates authority into multiple layers to prevent privilege escalation and authority collapse.
                     </p>
 
                     <SubHeader text="2.1 Authority Layers" />
@@ -195,7 +195,7 @@ export default function ArchitecturePage() {
                 <div className={styles.section}>
                     <SectionHeader title="7. Transaction Risk Intelligence Layer" />
                     <p className={styles.text}>
-                        DOER introduces a transaction risk analysis system to improve user visibility before signing transactions. Before approval, the wallet evaluates:
+                        DOER DAPP introduces a transaction risk analysis system to improve user visibility before signing transactions. Before approval, the wallet evaluates:
                     </p>
                     <BulletPoint text="token approval amounts" />
                     <BulletPoint text="contract verification status" />
@@ -229,7 +229,7 @@ export default function ArchitecturePage() {
                 <div className={styles.section}>
                     <SectionHeader title="8. On-Chain Work & Task System" />
                     <p className={styles.text}>
-                        DOER expands beyond automation by introducing a task and reward protocol. Projects and DAOs can post tasks directly on-chain. Users can complete tasks and receive rewards from escrow.
+                        DOER DAPP expands beyond automation by introducing a task and reward protocol. Projects and DAOs can post tasks directly on-chain. Users can complete tasks and receive rewards from escrow.
                     </p>
 
                     <h4 style={{ fontFamily: "var(--font-inter)", fontSize: 18, fontWeight: 700, color: "#fff", marginBottom: 4, marginTop: 16 }}>Core Accounts</h4>
@@ -280,7 +280,7 @@ export default function ArchitecturePage() {
                     <SectionHeader title="9. Failure Modes and Guarantees" />
                     <Definition term="Executor Misbehavior" definition="If an executor submits an invalid proposal: Execution fails. No state change occurs." />
                     <Definition term="Off-Chain Compromise" definition="Even if off-chain systems fail or behave maliciously: Policies remain enforced. Users retain revocation authority." />
-                    <Definition term="User Error" definition="DOER enforces constraints exactly as defined. It does not infer user intent or protect against unclear rule definitions." />
+                    <Definition term="User Error" definition="DOER DAPP enforces constraints exactly as defined. It does not infer user intent or protect against unclear rule definitions." />
                 </div>
 
                 <div className={styles.section}>
@@ -314,21 +314,21 @@ export default function ArchitecturePage() {
 
                 <div className={styles.section}>
                     <SectionHeader title="13. Mental Model for Builders" />
-                    <p className={styles.text}>Think of DOER as:</p>
+                    <p className={styles.text}>Think of DOER DAPP as:</p>
                     <BulletPoint text="a permission firewall" />
                     <BulletPoint text="a rule engine for execution authority" />
                     <BulletPoint text="a policy layer for wallet behavior" />
-                    <p className={styles.text} style={{ marginTop: 10 }}>Your system proposes actions. DOER decides whether they are allowed.</p>
+                    <p className={styles.text} style={{ marginTop: 10 }}>Your system proposes actions. DOER DAPP decides whether they are allowed.</p>
                 </div>
 
                 <div className={styles.section}>
                     <SectionHeader title="14. Evaluation Checklist for Builders" />
-                    <p className={styles.text}>Before integrating with DOER:</p>
+                    <p className={styles.text}>Before integrating with DOER DAPP:</p>
                     <BulletPoint text="What authority does your system require?" />
                     <BulletPoint text="Can that authority be bounded?" />
                     <BulletPoint text="Can users revoke it safely?" />
                     <BulletPoint text="Can failures be handled gracefully?" />
-                    <p className={styles.text} style={{ marginTop: 10 }}>If the answer is no, DOER may not be appropriate for your architecture.</p>
+                    <p className={styles.text} style={{ marginTop: 10 }}>If the answer is no, DOER DAPP may not be appropriate for your architecture.</p>
                 </div>
 
                 <div style={{ padding: "40px 0", borderTop: "1px solid rgba(255,255,255,0.1)", marginTop: 40 }}>

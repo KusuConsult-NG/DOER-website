@@ -8,7 +8,7 @@ export default function WhyDoerExistsPage() {
             <div className={styles.content}>
 
                 <SectionHeader
-                    title="Why DOER Exists"
+                    title="Why DOER DAPP Exists"
                     subtitle="The wallet problem Web3 never truly solved."
                 />
 
@@ -67,9 +67,9 @@ export default function WhyDoerExistsPage() {
                 </div>
 
                 <div className={styles.section}>
-                    <SectionHeader title="The DOER Approach" />
+                    <SectionHeader title="The DOER DAPP Approach" />
                     <p className={styles.text}>
-                        DOER introduces a new interaction model based on intent and policy enforcement. Instead of signing transactions one by one, users define:
+                        DOER DAPP introduces a new interaction model based on intent and policy enforcement. Instead of signing transactions one by one, users define:
                     </p>
                     <div style={{ marginTop: 20 }}>
                         <Definition term="Intent" definition="What outcome they want." />
@@ -87,7 +87,7 @@ export default function WhyDoerExistsPage() {
                         Traditional wallets act as passive tools. They wait for the user to sign each transaction.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
-                        DOER introduces the concept of a <span style={{ fontWeight: 600, color: "#fff" }}>policy-driven wallet.</span> A wallet that can enforce rules such as:
+                        DOER DAPP introduces the concept of a <span style={{ fontWeight: 600, color: "#fff" }}>policy-driven wallet.</span> A wallet that can enforce rules such as:
                     </p>
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
                         <BulletPoint text="Claim staking rewards daily but never exceed a gas limit." />
@@ -103,7 +103,7 @@ export default function WhyDoerExistsPage() {
                         Another major problem with current wallets is lack of clarity. Many users sign transactions without fully understanding what they allow.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
-                        DOER introduces <span style={{ fontWeight: 600, color: "#fff" }}>transaction risk previews.</span> Before signing, users see clear explanations such as:
+                        DOER DAPP introduces <span style={{ fontWeight: 600, color: "#fff" }}>transaction risk previews.</span> Before signing, users see clear explanations such as:
                     </p>
                     <div style={{ backgroundColor: "rgba(255,255,255,0.05)", padding: 16, borderRadius: 8, margin: "16px 0", fontFamily: "monospace", color: "rgba(255,255,255,0.8)" }}>
                         Asset: USDC<br />
@@ -119,7 +119,7 @@ export default function WhyDoerExistsPage() {
                         Most wallets today only focus on asset management. But Web3 is not just about holding tokens. It is about participating in decentralized systems.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
-                        DOER introduces a new capability: <span style={{ fontWeight: 600, color: "#fff" }}>on-chain work.</span>
+                        DOER DAPP introduces a new capability: <span style={{ fontWeight: 600, color: "#fff" }}>on-chain work.</span>
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
                         Projects and DAOs can publish tasks that users complete directly from their wallet. Examples include:
@@ -138,7 +138,7 @@ export default function WhyDoerExistsPage() {
                 <div className={styles.section}>
                     <SectionHeader title="A New Category of Wallet" />
                     <p className={styles.text}>
-                        DOER introduces a new category of infrastructure: <span style={{ fontWeight: 600, color: "#fff" }}>Intent-driven automation wallets.</span>
+                        DOER DAPP introduces a new category of infrastructure: <span style={{ fontWeight: 600, color: "#fff" }}>Intent-driven automation wallets.</span>
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
                         Instead of simply signing transactions, the wallet becomes a system that can:
@@ -161,7 +161,7 @@ export default function WhyDoerExistsPage() {
                         Without better permission systems, users will continue to face the same tradeoff: Security or convenience.
                     </p>
                     <p className={styles.text} style={{ margin: "20px 0", fontWeight: 600, color: "#fff" }}>
-                        DOER exists to remove that tradeoff.
+                        DOER DAPP exists to remove that tradeoff.
                     </p>
                     <p className={styles.text}>Automation should not require surrendering control.</p>
                 </div>
@@ -169,7 +169,7 @@ export default function WhyDoerExistsPage() {
                 <div className={styles.section}>
                     <SectionHeader title="The Long-Term Vision" />
                     <p className={styles.text}>
-                        The long-term vision for DOER is simple. A future where users can interact with blockchain systems by defining what they want to happen, not by manually approving every step.
+                        The long-term vision for DOER DAPP is simple. A future where users can interact with blockchain systems by defining what they want to happen, not by manually approving every step.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>Where authority is:</p>
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
@@ -186,7 +186,7 @@ export default function WhyDoerExistsPage() {
                 <div style={{ padding: "40px 0", borderTop: "1px solid rgba(255,255,255,0.1)", marginTop: 40 }}>
                     <h3 className={styles.stepTitle} style={{ marginBottom: 16 }}>The Core Vision</h3>
                     <p style={{ fontSize: 18, color: "rgba(255,255,255,0.6)", fontStyle: "italic", lineHeight: 1.6, whiteSpace: "pre-line" }}>
-                        &quot;DOER exists to transform the wallet from a transaction signer into a policy-driven execution system for safe on-chain automation and participation.&quot;
+                        &quot;DOER DAPP exists to transform the wallet from a transaction signer into a policy-driven execution system for safe on-chain automation and participation.&quot;
                     </p>
                 </div>
 

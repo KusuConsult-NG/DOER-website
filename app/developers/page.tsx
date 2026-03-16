@@ -13,10 +13,10 @@ export default function DevelopersPage() {
 
                 <div className={styles.section}>
                     <p className={styles.text}>
-                        While DOER introduces new ways to express intent, automate actions, and enforce transaction policies, its purpose is not to replace existing tools. Instead, it acts as a coordination layer that improves how users authorize and execute on-chain actions.
+                        While DOER DAPP introduces new ways to express intent, automate actions, and enforce transaction policies, its purpose is not to replace existing tools. Instead, it acts as a coordination layer that improves how users authorize and execute on-chain actions.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
-                        Whether someone interacts with crypto through a wallet, a trading interface, a DAO dashboard, or a custom application, DOER is designed to fit into that flow rather than compete with it.
+                        Whether someone interacts with crypto through a wallet, a trading interface, a DAO dashboard, or a custom application, DOER DAPP is designed to fit into that flow rather than compete with it.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
                         The protocol focuses on one goal: <span style={{ fontWeight: 600, color: "#fff" }}>Make automation, permissions, and execution safer, clearer, and programmable across the ecosystem.</span>
@@ -25,7 +25,7 @@ export default function DevelopersPage() {
 
                 <UserSegment
                     title="For Wallet Users"
-                    content={`For everyday users, DOER improves how on-chain actions are authorized.\n\nMost wallets today require one of two behaviors:\n• Approve similar transactions repeatedly, or\n• Grant broad permissions that remain active indefinitely.\n\nDOER introduces a third option. Users can define intents and policies once, then allow actions to execute automatically within clearly defined limits.\n\nThis reduces both friction and risk for people who frequently interact with:`}
+                    content={`For everyday users, DOER DAPP improves how on-chain actions are authorized.\n\nMost wallets today require one of two behaviors:\n• Approve similar transactions repeatedly, or\n• Grant broad permissions that remain active indefinitely.\n\nDOER introduces a third option. Users can define intents and policies once, then allow actions to execute automatically within clearly defined limits.\n\nThis reduces both friction and risk for people who frequently interact with:`}
                 >
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
                         <BulletPoint text="DeFi protocols" />
@@ -34,7 +34,7 @@ export default function DevelopersPage() {
                         <BulletPoint text="governance tools" />
                     </div>
                     <p className={styles.text}>
-                        You do not need to understand how the protocol works internally to benefit from it. If you understand what you are allowing and why, DOER works in your favor.
+                        You do not need to understand how the protocol works internally to benefit from it. If you understand what you are allowing and why, DOER DAPP works in your favor.
                     </p>
                 </UserSegment>
 
@@ -55,7 +55,7 @@ export default function DevelopersPage() {
 
                 <UserSegment
                     title="For Tool Builders"
-                    content={`For developers building Web3 tools, DOER provides a safer automation foundation.\n\nMany tools today request permissions that are broader than necessary. This increases risk for users and liability for developers.\n\nBy integrating with DOER, tools can:`}
+                    content={`For developers building Web3 tools, DOER DAPP provides a safer automation foundation.\n\nMany tools today request permissions that are broader than necessary. This increases risk for users and liability for developers.\n\nBy integrating with DOER DAPP, tools can:`}
                 >
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
                         <BulletPoint text="operate only within user-defined constraints" />
@@ -79,7 +79,7 @@ export default function DevelopersPage() {
                         <BulletPoint text="recurring operational tasks" />
                     </div>
                     <p className={styles.text} style={{ marginBottom: 10 }}>
-                        These workflows often require delegated authority, which can be difficult to manage safely. DOER allows DAOs to delegate execution authority without losing control.
+                        These workflows often require delegated authority, which can be difficult to manage safely. DOER DAPP allows DAOs to delegate execution authority without losing control.
                     </p>
                     <p className={styles.text}>DAO participants can define:</p>
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
@@ -95,7 +95,7 @@ export default function DevelopersPage() {
 
                 <UserSegment
                     title="For Web3 Contributors"
-                    content={`DOER also introduces on-chain work infrastructure. Projects can publish tasks directly through the protocol, allowing contributors to complete work and receive rewards on-chain.\n\nExamples include:`}
+                    content={`DOER DAPP also introduces on-chain work infrastructure. Projects can publish tasks directly through the protocol, allowing contributors to complete work and receive rewards on-chain.\n\nExamples include:`}
                 >
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
                         <BulletPoint text="testing applications" />
@@ -110,7 +110,7 @@ export default function DevelopersPage() {
 
                 <div className={styles.section}>
                     <SectionHeader title="Open by Design" />
-                    <p className={styles.text} style={{ marginBottom: 10 }}>DOER is intentionally designed to be open and composable. It is:</p>
+                    <p className={styles.text} style={{ marginBottom: 10 }}>DOER DAPP is intentionally designed to be open and composable. It is:</p>
                     <div style={{ marginLeft: 10, marginBottom: 20 }}>
                         <BulletPoint text="understandable without deep protocol knowledge" />
                         <BulletPoint text="enforceable through on-chain rules" />
@@ -124,10 +124,10 @@ export default function DevelopersPage() {
                 <div className={styles.section}>
                     <SectionHeader title="Not Just for Engineers" />
                     <p className={styles.text}>
-                        Although DOER exposes technical interfaces for developers, its purpose is broader.
+                        Although DOER DAPP exposes technical interfaces for developers, its purpose is broader.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20, marginBottom: 10 }}>
-                        Even if you never write code, DOER changes how you interact with crypto by:
+                        Even if you never write code, DOER DAPP changes how you interact with crypto by:
                     </p>
                     <div style={{ marginLeft: 10, marginBottom: 20 }}>
                         <BulletPoint text="making permissions clearer" />
@@ -143,7 +143,7 @@ export default function DevelopersPage() {
                 <div className={styles.section}>
                     <SectionHeader title="Where to Go Next" />
                     <div style={{ marginLeft: 10 }}>
-                        <BulletPoint text="If you are a user, explore how DOER changes approvals and permissions." />
+                        <BulletPoint text="If you are a user, explore how DOER DAPP changes approvals and permissions." />
                         <BulletPoint text="If you are a builder, learn how intents, policies, and mandates work together." />
                         <BulletPoint text="If you are a DAO contributor, explore controlled delegation and automated execution models." />
                     </div>

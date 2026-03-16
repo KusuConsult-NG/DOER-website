@@ -7,9 +7,9 @@ import { useState } from "react";
 import styles from "./Navbar.module.css";
 
 const navLinks = [
-    { label: "Why DOER Exists", path: "/why-doer-exists" },
+    { label: "Why DOER DAPP Exists", path: "/why-doer-exists" },
     { label: "Protocol Overview", path: "/protocol-overview" },
-    { label: "What Makes DOER New", path: "/what-makes-doer-new" },
+    { label: "What Makes DOER DAPP New", path: "/what-makes-doer-new" },
     { label: "Architecture", path: "/architecture" },
 ];
 

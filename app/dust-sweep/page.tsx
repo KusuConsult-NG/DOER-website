@@ -17,7 +17,7 @@ export default function DustSweepPage() {
                         Over time, wallets accumulate small leftover balances called dust.
                     </p>
                     <p className={styles.text}>
-                        DOER allows users to consolidate these small assets into a single usable token.
+                        DOER DAPP allows users to consolidate these small assets into a single usable token.
                     </p>
                 </div>
 

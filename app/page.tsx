@@ -20,7 +20,7 @@ export default function Home() {
             DOER DAPP lets you tell your wallet what you want done, define clear
             limits, and let actions happen safely without watching every
             transaction.<br /><br />
-            With the DOER Intent Engine, automation happens only within rules you set. Your wallet becomes programmable, transparent, and secure.
+            With the DOER DAPP Intent Engine, automation happens only within rules you set. Your wallet becomes programmable, transparent, and secure.
           </p>
 
           <div className={styles.heroBadges}>
@@ -63,7 +63,7 @@ export default function Home() {
 
       {/* APPROACH SECTION (Row of 3) */}
       <section className={styles.section}>
-        <SectionHeader title="The DOER DAPP Approach" subtitle="DOER introduces intent-driven execution. Instead of approving transactions one by one, you define what should happen and the limits within which it can happen. Every automated action follows three rules:" />
+        <SectionHeader title="The DOER DAPP Approach" subtitle="DOER DAPP introduces intent-driven execution. Instead of approving transactions one by one, you define what should happen and the limits within which it can happen. Every automated action follows three rules:" />
         <div className={styles.grid3}>
           <InfoCard
             title="Intent"
@@ -116,7 +116,7 @@ export default function Home() {
         <div className={styles.grid2}>
           <InfoCard
             title="Intent Engine"
-            description={`The DOER Intent Engine allows users to interact with their wallet using natural instructions.\n\nInstead of navigating complex interfaces, users can define actions such as:\n"Claim staking rewards every day."\nwait, or\n"Swap tokens if the price reaches a specific level."\n\nThe system converts these instructions into structured policies that control execution. Automation becomes safe because every action must pass on-chain policy validation.`}
+            description={`The DOER DAPP Intent Engine allows users to interact with their wallet using natural instructions.\n\nInstead of navigating complex interfaces, users can define actions such as:\n"Claim staking rewards every day."\nwait, or\n"Swap tokens if the price reaches a specific level."\n\nThe system converts these instructions into structured policies that control execution. Automation becomes safe because every action must pass on-chain policy validation.`}
             icon={<Cpu size={32} />}
           />
           <InfoCard
@@ -126,7 +126,7 @@ export default function Home() {
           />
           <InfoCard
             title="On-Chain Work and Reputation"
-            description={`DOER introduces a new way to participate in Web3.\nUsers can complete tasks posted by DAOs, developers, and protocols directly from their wallet.\n\nExamples include:\n• testing applications\n• contributing to communities\n• completing development tasks\n• participating in governance\n\nOnce work is verified, rewards are distributed on-chain. Each completed task contributes to a verifiable on-chain work history. Your wallet becomes a decentralized reputation profile.`}
+            description={`DOER DAPP introduces a new way to participate in Web3.\nUsers can complete tasks posted by DAOs, developers, and protocols directly from their wallet.\n\nExamples include:\n• testing applications\n• contributing to communities\n• completing development tasks\n• participating in governance\n\nOnce work is verified, rewards are distributed on-chain. Each completed task contributes to a verifiable on-chain work history. Your wallet becomes a decentralized reputation profile.`}
             icon={<Briefcase size={32} />}
           />
           <InfoCard

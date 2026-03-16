@@ -15,14 +15,14 @@ export default function IntentsPage() {
                 <div className={styles.section}>
                     <SectionHeader title="What Is an Intent?" />
                     <p className={styles.text}>
-                        An intent is how you tell DOER what you want to happen. It is not a transaction. It defines a goal and the boundaries for achieving it.
+                        An intent is how you tell DOER DAPP what you want to happen. It is not a transaction. It defines a goal and the boundaries for achieving it.
                     </p>
                 </div>
 
                 <div className={styles.section}>
                     <SectionHeader title="Why Intents Matter" />
                     <p className={styles.text}>
-                        Most wallets require constant manual approvals. Intents allow users to define expectations once while keeping strict limits in place. You define the goal. DOER handles execution safely.
+                        Most wallets require constant manual approvals. Intents allow users to define expectations once while keeping strict limits in place. You define the goal. DOER DAPP handles execution safely.
                     </p>
                 </div>
 

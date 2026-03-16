@@ -53,12 +53,12 @@ export default function GettingStartedPage() {
 
                 <Step number="4" title="Allow Limited Execution" content={`Once intent and limits are defined, you can allow execution through a mandate.\n\nA mandate is permission with rules and an expiration. It answers questions like: Who can act on this intent? How often can it run? When does permission end?\n\nMandates never transfer ownership of your assets. They only allow specific actions to occur within the rules you created.`} />
 
-                <Step number="5" title="Let DOER Enforce Your Rules" content={`Once a mandate becomes active:\n• Actions occur only if they match your intent\n• Policies are verified before every execution\n• Expired permissions cannot be used\n• Revoked permissions stop immediately\n\nAutomation is executed by the DOER executor network, but every action must pass policy validation first. Nothing runs outside the rules you defined. You do not need to watch every transaction, but you can review or stop execution anytime.`} />
+                <Step number="5" title="Let DOER DAPP Enforce Your Rules" content={`Once a mandate becomes active:\n• Actions occur only if they match your intent\n• Policies are verified before every execution\n• Expired permissions cannot be used\n• Revoked permissions stop immediately\n\nAutomation is executed by the DOER DAPP executor network, but every action must pass policy validation first. Nothing runs outside the rules you defined. You do not need to watch every transaction, but you can review or stop execution anytime.`} />
 
                 <div className={styles.section}>
                     <SectionHeader title="Understanding Transaction Safety" />
                     <p className={styles.text}>
-                        Before you approve a transaction, DOER provides a risk preview. This helps you understand what the transaction is doing.
+                        Before you approve a transaction, DOER DAPP provides a risk preview. This helps you understand what the transaction is doing.
                     </p>
                     <div style={{ backgroundColor: "rgba(255,255,255,0.05)", padding: 20, borderRadius: 8, margin: "16px 0" }}>
                         <p className={styles.text} style={{ fontFamily: "monospace", margin: 0 }}>
@@ -76,32 +76,32 @@ export default function GettingStartedPage() {
                 <div className={styles.section}>
                     <SectionHeader title="Earning Through On-Chain Tasks" />
                     <p className={styles.text} style={{ whiteSpace: "pre-line" }}>
-                        {`DOER also allows users to participate in on-chain work.\nProjects, developers, and communities can post tasks directly on the platform.\n\nExamples include:\n• testing applications\n• participating in governance\n• community contributions\n• development work\n\nWhen a task is completed and verified, rewards are paid directly to your wallet. Each completed task contributes to your on-chain reputation, creating a verifiable record of your work.\n\nYour wallet becomes more than a storage tool. It becomes a Web3 activity profile.`}
+                        {`DOER DAPP also allows users to participate in on-chain work.\nProjects, developers, and communities can post tasks directly on the platform.\n\nExamples include:\n• testing applications\n• participating in governance\n• community contributions\n• development work\n\nWhen a task is completed and verified, rewards are paid directly to your wallet. Each completed task contributes to your on-chain reputation, creating a verifiable record of your work.\n\nYour wallet becomes more than a storage tool. It becomes a Web3 activity profile.`}
                     </p>
                 </div>
 
                 <div className={styles.section}>
-                    <SectionHeader title="How to Stay Safe When Using DOER" />
+                    <SectionHeader title="How to Stay Safe When Using DOER DAPP" />
                     <p className={styles.text}>
-                        DOER is designed to protect users, but safe use still requires attention. Keep these principles in mind:
+                        DOER DAPP is designed to protect users, but safe use still requires attention. Keep these principles in mind:
                     </p>
                     <BulletPoint text="Only allow applications you recognize" />
                     <BulletPoint text="Set limits you are comfortable with" />
                     <BulletPoint text="Use expiration times whenever possible" />
                     <BulletPoint text="Revoke mandates you no longer need" />
                     <p className={styles.text} style={{ marginTop: 20 }}>
-                        DOER enforces your rules. It cannot correct unclear or risky choices.
+                        DOER DAPP enforces your rules. It cannot correct unclear or risky choices.
                     </p>
                 </div>
 
                 <div className={styles.grid2}>
                     <InfoCard
-                        title="When You Should Use DOER"
+                        title="When You Should Use DOER DAPP"
                         description={`• You want fewer approvals without open-ended permissions\n• You interact with crypto frequently\n• You want automation with strict limits\n• You want to earn through on-chain tasks\n• You want more transparency when signing transactions`}
                         icon={<CheckCircle size={32} />}
                     />
                     <InfoCard
-                        title="When You Should NOT Use DOER"
+                        title="When You Should NOT Use DOER DAPP"
                         description={`• You do not understand what you are allowing\n• You want unlimited “set and forget” automation\n• You prefer manually approving every action yourself\n\nDOER prioritizes control over convenience.`}
                         icon={<XCircle size={32} />}
                     />

@@ -8,7 +8,7 @@ export default function WhatMakesDoerNewPage() {
             <div className={styles.content}>
 
                 <SectionHeader
-                    title="What Makes DOER New"
+                    title="What Makes DOER DAPP New"
                     subtitle="A new category of wallet infrastructure."
                 />
 
@@ -17,7 +17,7 @@ export default function WhatMakesDoerNewPage() {
                         Many Web3 projects claim innovation, but most improvements fall into familiar patterns: faster transactions, better interfaces, or additional integrations.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
-                        DOER is different because it changes how authority, automation, and execution are structured at the wallet level. Instead of focusing only on storage or transaction signing, DOER introduces a policy-driven architecture that allows wallets to enforce programmable rules.
+                        DOER DAPP is different because it changes how authority, automation, and execution are structured at the wallet level. Instead of focusing only on storage or transaction signing, DOER DAPP introduces a policy-driven architecture that allows wallets to enforce programmable rules.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
                         This creates a new category of infrastructure: <span style={{ fontWeight: 600, color: "#fff" }}>the Intent Automation Wallet.</span>
@@ -46,9 +46,9 @@ export default function WhatMakesDoerNewPage() {
                 </div>
 
                 <div className={styles.section}>
-                    <SectionHeader title="The DOER Innovation" />
+                    <SectionHeader title="The DOER DAPP Innovation" />
                     <p className={styles.text}>
-                        DOER introduces a system where wallets enforce programmable authority rules. Instead of approving transactions individually or granting open-ended permissions, users define:
+                        DOER DAPP introduces a system where wallets enforce programmable authority rules. Instead of approving transactions individually or granting open-ended permissions, users define:
                     </p>
                     <div style={{ marginTop: 20 }}>
                         <Definition term="Intent" definition="The outcome they want." />
@@ -61,14 +61,14 @@ export default function WhatMakesDoerNewPage() {
                 </div>
 
                 <div className={styles.section}>
-                    <SectionHeader title="Four Innovations Introduced by DOER" />
+                    <SectionHeader title="Four Innovations Introduced by DOER DAPP" />
                     <p className={styles.text}>
-                        DOER combines several ideas that previously existed separately across different parts of the Web3 ecosystem. Bringing them together inside the wallet layer creates a new architecture.
+                        DOER DAPP combines several ideas that previously existed separately across different parts of the Web3 ecosystem. Bringing them together inside the wallet layer creates a new architecture.
                     </p>
 
                     <h3 className={styles.stepTitle} style={{ marginTop: 40, marginBottom: 16 }}>1. Intent-Based Wallet Interaction</h3>
                     <p className={styles.text}>
-                        Most wallets ask users to approve actions transaction by transaction. DOER allows users to describe desired outcomes instead. Examples include:
+                        Most wallets ask users to approve actions transaction by transaction. DOER DAPP allows users to describe desired outcomes instead. Examples include:
                     </p>
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
                         <BulletPoint text="Claim staking rewards automatically." />
@@ -99,7 +99,7 @@ export default function WhatMakesDoerNewPage() {
                         A major usability problem in Web3 is the lack of clarity around transaction approvals. Users frequently sign transactions without understanding the permissions they grant.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
-                        DOER introduces a transaction risk analysis layer that evaluates:
+                        DOER DAPP introduces a transaction risk analysis layer that evaluates:
                     </p>
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
                         <BulletPoint text="Approval size" />
@@ -117,7 +117,7 @@ export default function WhatMakesDoerNewPage() {
 
                     <h3 className={styles.stepTitle} style={{ marginTop: 40, marginBottom: 16 }}>4. On-Chain Work and Reputation</h3>
                     <p className={styles.text}>
-                        Wallets traditionally focus only on asset storage. DOER expands the wallet into a participation platform. Projects and DAOs can publish tasks directly on-chain.
+                        Wallets traditionally focus only on asset storage. DOER DAPP expands the wallet into a participation platform. Projects and DAOs can publish tasks directly on-chain.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>Users can:</p>
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
@@ -142,7 +142,7 @@ export default function WhatMakesDoerNewPage() {
                         <BulletPoint text="Transaction safety tools exist separately from execution." />
                     </div>
                     <p className={styles.text}>
-                        DOER integrates them into one coordinated architecture. The result is a wallet that can:
+                        DOER DAPP integrates them into one coordinated architecture. The result is a wallet that can:
                     </p>
                     <div style={{ marginLeft: 10, marginTop: 10, marginBottom: 20 }}>
                         <BulletPoint text="Enforce execution rules" />
@@ -185,9 +185,9 @@ export default function WhatMakesDoerNewPage() {
                 </div>
 
                 <div style={{ padding: "40px 0", borderTop: "1px solid rgba(255,255,255,0.1)", marginTop: 40 }}>
-                    <h3 className={styles.stepTitle} style={{ marginBottom: 16 }}>The DOER Paradigm</h3>
+                    <h3 className={styles.stepTitle} style={{ marginBottom: 16 }}>The DOER DAPP Paradigm</h3>
                     <p style={{ fontSize: 18, color: "rgba(255,255,255,0.6)", fontStyle: "italic", lineHeight: 1.6, whiteSpace: "pre-line" }}>
-                        &quot;DOER introduces the Intent Automation Wallet, a new architecture where users define goals, enforce execution policies, and safely automate blockchain interactions while maintaining full control over their assets.&quot;
+                        &quot;DOER DAPP introduces the Intent Automation Wallet, a new architecture where users define goals, enforce execution policies, and safely automate blockchain interactions while maintaining full control over their assets.&quot;
                     </p>
                 </div>
 

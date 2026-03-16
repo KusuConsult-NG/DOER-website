@@ -13,7 +13,7 @@ export default function ProtocolOverviewPage() {
 
                 <div className={styles.section}>
                     <p className={styles.text}>
-                        This page summarizes how the system works as a protocol. It focuses on the interaction between the major components that allow DOER to support intent-driven automation, policy enforcement, transaction safety, and on-chain work.
+                        This page summarizes how the system works as a protocol. It focuses on the interaction between the major components that allow DOER DAPP to support intent-driven automation, policy enforcement, transaction safety, and on-chain work.
                     </p>
                     <p className={styles.text} style={{ marginTop: 20 }}>
                         <span className={styles.heroHighlight}>The goal is simple:</span><br />
@@ -27,7 +27,7 @@ export default function ProtocolOverviewPage() {
                         Most wallets only perform one function: Sign transactions.
                     </p>
                     <p className={styles.text}>
-                        DOER introduces a programmable layer on top of wallets that allows users to define:
+                        DOER DAPP introduces a programmable layer on top of wallets that allows users to define:
                     </p>
                     <BulletPoint text="what outcomes they want" />
                     <BulletPoint text="when those outcomes are allowed" />
@@ -39,7 +39,7 @@ export default function ProtocolOverviewPage() {
 
                 <div className={styles.section}>
                     <SectionHeader title="System Architecture" />
-                    <p className={styles.text}>At a high level, DOER consists of five major layers:</p>
+                    <p className={styles.text}>At a high level, DOER DAPP consists of five major layers:</p>
                     <div style={{ marginLeft: 10, marginBottom: 20 }}>
                         <BulletPoint text="User Wallet" />
                         <BulletPoint text="Intent Engine" />
@@ -72,7 +72,7 @@ export default function ProtocolOverviewPage() {
                 <div className={styles.section}>
                     <SectionHeader title="Layer 1 — User Wallet" />
                     <p className={styles.text}>
-                        The wallet is the primary interface for interacting with DOER. The mobile application provides:
+                        The wallet is the primary interface for interacting with DOER DAPP. The mobile application provides:
                     </p>
                     <BulletPoint text="wallet management" />
                     <BulletPoint text="intent creation interface" />
@@ -145,7 +145,7 @@ export default function ProtocolOverviewPage() {
                 <div className={styles.section}>
                     <SectionHeader title="Transaction Risk Engine" />
                     <p className={styles.text}>
-                        Before any transaction is approved, DOER performs a risk analysis. The system evaluates:
+                        Before any transaction is approved, DOER DAPP performs a risk analysis. The system evaluates:
                     </p>
                     <BulletPoint text="token approval limits" />
                     <BulletPoint text="smart contract verification status" />
@@ -168,7 +168,7 @@ export default function ProtocolOverviewPage() {
                 <div className={styles.section}>
                     <SectionHeader title="On-Chain Work Protocol" />
                     <p className={styles.text}>
-                        DOER extends beyond automation by enabling on-chain work and task rewards. Projects and DAOs can publish tasks directly on the protocol. Users can:
+                        DOER DAPP extends beyond automation by enabling on-chain work and task rewards. Projects and DAOs can publish tasks directly on the protocol. Users can:
                     </p>
                     <BulletPoint text="discover tasks" />
                     <BulletPoint text="submit work proofs" />
@@ -194,7 +194,7 @@ export default function ProtocolOverviewPage() {
                 <div className={styles.section}>
                     <SectionHeader title="Security Model" />
                     <p className={styles.text}>
-                        DOER is designed around a simple principle: <span style={{ fontWeight: 600, color: "#fff" }}>Automation must never exceed explicit user authority.</span>
+                        DOER DAPP is designed around a simple principle: <span style={{ fontWeight: 600, color: "#fff" }}>Automation must never exceed explicit user authority.</span>
                     </p>
                     <p className={styles.text} style={{ marginTop: 10 }}>To enforce this, the protocol guarantees:</p>
                     <BulletPoint text="Execution cannot exceed defined limits" />
@@ -209,7 +209,7 @@ export default function ProtocolOverviewPage() {
                 <div className={styles.section}>
                     <SectionHeader title="Why This Architecture Matters" />
                     <p className={styles.text}>
-                        Most wallets operate as passive signing tools. DOER introduces a new category: <span style={{ fontWeight: 600, color: "#fff" }}>intent-driven programmable wallets.</span>
+                        Most wallets operate as passive signing tools. DOER DAPP introduces a new category: <span style={{ fontWeight: 600, color: "#fff" }}>intent-driven programmable wallets.</span>
                     </p>
                     <p className={styles.text} style={{ marginTop: 10 }}>Users can:</p>
                     <BulletPoint text="automate actions safely" />
